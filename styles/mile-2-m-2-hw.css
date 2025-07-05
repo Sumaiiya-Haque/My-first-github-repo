@@ -1,0 +1,11 @@
+h1{
+    color: blueviolet;
+    background-color: darksalmon;
+   background-image:url('images/sea.jpg');
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+}
+p{
+    color: rgb(4, 169, 169);
+}

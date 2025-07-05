@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selector practice</title>
+    <style>
+        p{
+            color: blueviolet;
+        }
+        #fifth{
+            
+        }
+        .yellow{
+            background-color: aquamarine;
+            font-size: larger;
+        }
+        .red{
+            font-weight: 700;
+        }
+        input [type="password"]{
+            font-size: medium;
+            color: rgb(12, 208, 126);
+            
+        }
+        input [type="text"]{
+            font-size: larger;
+        }
+        .css{
+            color: rgb(238, 122, 5);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 900;
+        }
+        div{
+            background-color: rgb(76, 250, 166);
+            padding: 20px;
+            text-align: justify;
+            margin: 20px;
+            text-decoration: solid red;
+        }
+        .paragraph,
+        
+        .para{
+            color: red;
+            font-weight: 900;
+            font-size: larger;
+        } 
+
+    </style>
+</head>
+<body>
+    <h1> Explore Mixed selector</h1>
+    <p> My First <span class="css">inline CSS</span></p>
+     <p> My Second line CSS</p>
+      <p class="yellow"> My third line CSS</p>
+       <p class="yellow red"> My fourth line CSS</p>
+        <p id="fifth"> My Fifth line CSS</p>
+         <p class="para paragraph "> My Sixth line CSS</p>
+          <p> My seventh line CSS</p>
+          <ul>
+            <li>element selector</li>
+            <li>id selector </li>
+            <li>class selector</li>
+            <li>universal selector</li>
+          </ul>
+          <form action=""></form>
+          <input type="text"><br><br>
+          <input type="password">
+          <div class="vlog">
+            <h1> My Vlog</h1>
+            <p class="paragraph"  >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quam reiciendis dolores aperiam magni consequuntur natus? Ab quibusdam quo molestias expedita nostrum quaerat blanditiis porro veritatis rem reprehenderit, et ipsa.</p>
+            
+          </div>
+</body>
+</html>
